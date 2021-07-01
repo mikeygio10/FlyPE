@@ -113,7 +113,7 @@ enable-fly-ui: true
 pay-for-fly: true
 
 # If payforfly is set to true, set this to the amount of money a player needs to pay for fly. (1800, 4500, 8500 etc.)
-buy-fly-cost: 100000
+buy-fly-cost: 1000000
 
 # If set to true and pay-for-fly is set to true, purchasing flight would be saved.
 # If set to false and pay-for-fly is set to true, purchasing flight would NOT be saved.
@@ -238,7 +238,8 @@ coupon-command-toggle-item: false
 ##### FLIGHT TOGGLE COOLDOWN #####
 
 # If set to true, players will NOT be allowed to toggle flight until a number of seconds have passed.
-# If set to false, players will be allowed to toggle flight anytime.
+# If set to false, players will be allowed to toggle flight any
+.
 #
 # NOTE: Recommended to be set to true.
 enable-cooldown: false

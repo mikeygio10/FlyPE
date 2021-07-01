@@ -37,7 +37,7 @@ lang: "en_US"
 # If set to false, fly wouldn't be disabled when a player joins.
 #
 # NOTE: Only works when save-flight-state is set to true.
-join-disable-fly: false
+join-disable-fly: true
 
 # If set to true, fly is disabled when a punches another player.
 # If set to false, fly wouldn't be disabled when a punches another player.
@@ -69,7 +69,7 @@ player-eating: true
 ##### FLY STATE #####
 
 # Whether or not to save flight state when a player leaves.
-save-flight-state: true
+save-flight-state: false
 
 #####################
 
@@ -105,12 +105,12 @@ fly-speed-creative: false
 
 # If set to true, a UI would show up when a player runs the /fly command.
 # If set to false, everything would be normal and players would be able to toggle flight normally.
-enable-fly-ui: false
+enable-fly-ui: true
 
 # If set to true and enable-fly-ui is set to true, players would have to pay to enable fly. (NOTE THAT YOU NEED THE ECONOMYAPI PLUGIN)
 # If set to true and enable-fly-ui is set to false, everything would be normal and player would be able to toggle flight.
 # If set to false and enable-fly-ui is set to true, players would NOT have to pay for fly.
-pay-for-fly: false
+pay-for-fly: true
 
 # If payforfly is set to true, set this to the amount of money a player needs to pay for fly. (1800, 4500, 8500 etc.)
 buy-fly-cost: 100000
@@ -123,17 +123,17 @@ save-purchased-data: true
 
 # If set to true, the texts on the UI will be editable by the configurations below.
 # If set to false, the default texts would be used.
-custom-ui-texts: false
+custom-ui-texts: true
 
 # The title that is located at the top of the UI.
-fly-ui-title: "§l§7< §6FlyUI §7>"
+fly-ui-title: "Fly Menu"
 
 # The toggle fly button.
 # {cost} = Cost of flight.
-fly-ui-toggle: "§aToggle Fly"
+fly-ui-toggle: "Fly - 30 min Cost:{cost}"
 
 # The exit button.
-fly-ui-exit: "§cExit"
+fly-ui-exit: "Exit"
 
 ##################
 
@@ -142,7 +142,7 @@ fly-ui-exit: "§cExit"
 
 # If set to true, particles will appear on player's feet if they are flying.
 # If set to false, no particles will appear.
-enable-fly-particles: false
+enable-fly-particles: true
 
 # Type of particle to spawn. Default: FlameParticle.
 # 
@@ -156,7 +156,7 @@ fly-particle-type: "FlameParticle"
 
 # Rate of fly particle.
 # 20 (ticks) = 1 second
-fly-particle-rate: 5
+fly-particle-rate: 30
 
 # Only change the configuration below if you're using the DestroyBlockParticle.
 particle-block-id: 1
@@ -216,7 +216,7 @@ simplelay-support: true
 
 # If set to true, players will be able to use the flight coupon.
 # If set to false, players will NOT be able to use the flight coupon.
-enable-coupon: true
+enable-coupon: false
 
 # The item texture of the flight coupon. (only applies to newer coupons)
 coupon-item-id: 339
@@ -226,11 +226,11 @@ coupon-name: "&6Flight Coupon"
 
 # If set to true, the flight coupon will be obtainable in the creative mode item list.
 # If set to false, the flight coupon will NOT be obtainable in the creative mode item list.
-coupon-creative-item: true
+coupon-creative-item: false
 
 # If set to true, running the flight command will give the player a flight coupon.
 # If set to false, running the flight command will NOT give the player a flight coupon.
-coupon-command-toggle-item: true
+coupon-command-toggle-item: false
 
 #########################
 
@@ -241,14 +241,14 @@ coupon-command-toggle-item: true
 # If set to false, players will be allowed to toggle flight anytime.
 #
 # NOTE: Recommended to be set to true.
-enable-cooldown: true
+enable-cooldown: false
 
 # The number of seconds the cooldown will last.
 cooldown-seconds: 10
 
 # If set to true, players will receive a message when the number of seconds have NOT passed after their last use.
 # If set to false, players will NOT receive any message.
-send-cooldown-message: true
+send-cooldown-message: false
 
 ##################################
 
@@ -261,7 +261,7 @@ creative-mode-effects: false
 
 # If set to true, players that fly and are in gamemode creative will have particles applied to them.
 # If set to false, players that fly and are in gamemode creative will NOT have particles applied to them.
-creative-mode-particles: false
+creative-mode-particles: true
 
 # If set to true, players that run /fly and are in gamemode creative will be allowed to toggle their flight.
 # If set to false, players that run /fly and are in gamemode creative will NOT be allowed to toggle their flight.
@@ -318,7 +318,7 @@ mode: blacklist
 
 # (BLACKLIST) These worlds only apply if the mode is set to blacklist.
 blacklisted-worlds:
- - "noflyworld1"
+ - "spawn"
  - "noflyworld2"
  - "noflyworld3"
  

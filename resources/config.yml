@@ -201,13 +201,13 @@ fly-effect-check-rate: 20
 # If set to false, particles and effects will always show.
 #
 # VERSION SUPPORTED: 1.18
-vanishv2-support: true
+vanishv2-support: false
 
 # If set to true, effects and particles underneath will be removed.
 # If set to false, effects and particles underneath are shown.
 #
 # VERSION SUPPORTED: 2.1.3
-simplelay-support: true
+simplelay-support: false
 
 ########################
 
@@ -306,7 +306,7 @@ fly-disabled-sound: "PopSound"
 
 # If set to true, players that toggle flight using the tempflight subcommand will be timed.
 # If set to false, players that toggle flight using the tempflight subcommand will NOT be timed.
-time-fly: true
+time-fly: false
 
 ########################
 

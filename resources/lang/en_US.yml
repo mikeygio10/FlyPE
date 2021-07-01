@@ -13,7 +13,7 @@ toggled-flight-on: "Toggled your flight on!"
 
 # The message a player gets for toggling off flight.
 # {name} = Player's Name
-toggled-flight-off: "Toggled your flight off!"
+toggled-flight-off: "Your fight has been disabled. Pay again for fly."
 
 # The message a player gets when they toggle on flight for others.
 # {name} = Player's Name
@@ -46,12 +46,12 @@ combat-fly-disable: "You can't fly during combat!"
 # The message a player gets when they do NOT have enough money to toggle flight.
 # {name} = Player's Name
 # {cost} = Flight Cost
-not-enough-money: "You do not have enough money!"
+not-enough-money: "You do not have enough money! {cost}"
 
 # The message a player gets when they have successfully purchased flight.
 # {name} = Player's Name
 # {cost} = Flight Cost
-buy-fly-successful: "Successful purchase of fly!"
+buy-fly-successful: "Successful purchased fly. It will last for 30 min."
 
 # The message a player gets when they try to use the flight coupon while flight is toggled on.
 # {name} = Player's Name

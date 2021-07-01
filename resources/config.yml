@@ -309,7 +309,7 @@ fly-disabled-sound: "PopSound"
 time-fly: false
 
 # Amount of seconds a player can fly for.
-fly-seconds: 300
+fly-seconds: 1800
 
 ########################
 

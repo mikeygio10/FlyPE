@@ -308,6 +308,9 @@ fly-disabled-sound: "PopSound"
 # If set to false, players that toggle flight using the tempflight subcommand will NOT be timed.
 time-fly: false
 
+# Amount of seconds a player can fly for.
+fly-seconds: 300
+
 ########################
 
 
